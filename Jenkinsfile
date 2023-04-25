@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage("git"){
             steps{
-                git url: 'https://github.com/Mayank8080/my-webapp.git', branch: 'main'
+                git url: 'https://github.com/Mayank8080/java-jenkins-docker.git', branch: 'main'
 
             }
         }
